@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.card_img{
+    background-color: #2d86eb;
+    width: 3vw;
+    padding: 1.4%;
+    border-radius: 12px;
+}
+.card_img img{
+    width: 3vw;
+}
+.dashcard-main{
+    position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+    margin: 1.5%;
+    font-family: 'Roboto',sans-serif;
+    padding: 1%;
+      width: 18vw;
+      background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: -2px 3px 23px -7px rgba(0,0,0,0.75);
+}
+.dashcard-main:hover{
+    top: -10px;
+}
+.card_info h2{
+    font-size: 16px;
+    color: gray;
+    
+}
+.card_info{
+    align-items: center;
+    display: block;
+    line-height: 1;
+    
+}
+
+.card_info p{
+    font-size: 19px;
+    font-weight: 600;
+    
+}
